@@ -1,0 +1,100 @@
+{
+    "country": {
+        "id": "f28bd925-28c5-4d14-93e2-155bf7f7559a",
+        "name": "Costa Rica",
+        "provinces": [
+            {
+                "id": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+                "name": "Guanacaste",
+                "countryId": "f28bd925-28c5-4d14-93e2-155bf7f7559a",
+                "cities": [
+                    {
+                        "id": "0a708102-4476-4613-ada7-aacda3f61072",
+                        "name": "Playa Gringo",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "f596348c-d42e-477a-8300-60673b1dc349",
+                        "name": "Playa Tamarindo",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "f20368c8-ced7-42d9-8389-c396dbc272b3",
+                        "name": "Sardinal",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "ea5db683-8f28-4299-bc5f-8786642319d0",
+                        "name": "Ocotal",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "bfc47d56-7bd3-4fc1-980b-ae4a23c01679",
+                        "name": "Comunidad",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "a5973236-89e1-4515-a097-378cb0ccbf2a",
+                        "name": "Playa Pez Vela",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "a3464f13-46a0-4fd1-8c9c-b519a85c162a",
+                        "name": "Playa del Coco",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "ff639909-08a9-48a8-b710-1175b71fc696",
+                        "name": "Panama",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "8d24fad5-2a13-4b50-92e3-b3891de7694d",
+                        "name": "Playa Panama",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "6d70ed08-7bf1-4eec-b39d-98407e98bad4",
+                        "name": "Carrillo",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "5501a1bd-9551-49d7-a8b8-85b543bc469f",
+                        "name": "Playa Calson de Pobre",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "434d6de6-6e30-4a5b-a692-5bbc86e3c169",
+                        "name": "Playa Penca",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "39c5f464-1268-4feb-ba41-ad81f2a7c2ef",
+                        "name": "Playa Grande",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "31237888-5cd1-4956-9b5e-2f0d7b10720f",
+                        "name": "Playa Hermosa",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "109c241f-a289-40b5-b4fc-a4038b52149a",
+                        "name": "Liberia",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "79069099-6d8d-4c31-b6c2-ea36b44751bb",
+                        "name": "Guardia",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    },
+                    {
+                        "id": "ff718973-c0c2-4eed-9c76-a889f9c53210",
+                        "name": "Bagaces",
+                        "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8"
+                    }
+                ]
+            }
+        ]
+    }
+}

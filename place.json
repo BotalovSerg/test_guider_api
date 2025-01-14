@@ -1,0 +1,88 @@
+{
+  "place": {
+    "name": "Numu",
+    "web": "numu_test",
+    "description": {
+      "description_en": "<p>Casual Taproom & Restaurant features <strong>Numu Brewing craft beer</strong>, cocktails, and wines.</p><br><p><strong>World&ndash;class cuisine by Chef</strong> Nicolas Devenelle. <strong>Artistic dish presentation</strong> and original cocktails.</p><br><ul><li>Live music and artist performances</li><li>Exceptional gastronomic experience</li><li>Favorite among locals and visitors</li><li>Serves beers from the Numu Brewing Company</li><li>Chef4U Service on your special event</li></ul>",
+      "description_sp": "<p>Casual Taproom & Restaurant ofrece <strong>cerveza artesanal Numu Brewing</strong>, cócteles y vinos.</p><br><p><strong>Cocina de clase mundial a cargo del chef</strong> Nicolas Devenelle. <strong>Presentación artística de los platos</strong> y cócteles originales.</p><br><ul><li>Música en vivo y presentaciones de artistas</li><li>Experiencia gastronómica excepcional</li><li>Favorito entre los locales y los visitantes</li><li>Sirve cervezas de Numu Brewing Company</li><li>Servicio Chef4U para su evento especial</li></ul"
+    },
+    "categoryId": "06a32bc7-8ddd-434d-a36d-764105a31123",
+    "address": {
+      "cityId": "c1c85c18-a79c-40d6-a0a1-cadbde6ca5c2",
+      "latitude": 10,
+      "longitude": 10,
+      "mapsUrn": "dfghjkl"
+    },
+    "images": [],
+    "socialNetworks": {
+      "facebook": "https://www.facebook.com/taproombistrocr",
+      "instagram": null,
+      "site": null,
+      "x": null,
+      "google": null
+    },
+    "phones": [
+      {
+        "number": "50683838367",
+        "isCallable": false,
+        "isWhatsapp": true
+      }
+    ],
+    "email": "test@mail.ru",
+    "schedule": [
+      {
+        "dayOfWeek": 0,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      },
+      {
+        "dayOfWeek": 1,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      },
+      {
+        "dayOfWeek": 2,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      },
+      {
+        "dayOfWeek": 3,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      },
+      {
+        "dayOfWeek": 4,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      },
+      {
+        "dayOfWeek": 5,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      },
+      {
+        "dayOfWeek": 6,
+        "timeStart": "12:30:00",
+        "timeEnd": "22:00:00",
+        "startOfBreak": null,
+        "endOfBreak": null
+      }
+    ],
+    "idTags": [
+      "0819bc43-7b97-4bfc-93d6-c145d1253fd5",
+      "afeae1bd-df8d-40fe-9574-7928d674cfe0"
+    ]
+  }
+}

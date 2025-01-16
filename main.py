@@ -17,7 +17,7 @@ def create_fake_user():
         lower_case=True,
     ) + choice(char)
     data = {
-        "email": fake.email(safe=True, domain="gmail.com"),
+        "email": fake.email(domain="yandex.com"),
         "password": password,
     }
     print(data)
@@ -34,4 +34,4 @@ def main(num_requests):
 
 
 if __name__ == "__main__":
-    main(100)
+    main(200)

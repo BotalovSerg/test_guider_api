@@ -4,7 +4,8 @@ import json
 import random
 
 fake = Faker()
-api_url = "http://example.com/api"  # Замените на ваш URL API
+api_url = "https://backend.guider.pro/api/v2/Place/create"
+
 
 def generate_place_data(place_id):
     return {
@@ -13,14 +14,14 @@ def generate_place_data(place_id):
             "web": fake.domain_name(),
             "description": {
                 "description_en": fake.paragraph(nb_sentences=5),
-                "description_sp": fake.paragraph(nb_sentences=5)
+                "description_sp": fake.paragraph(nb_sentences=5),
             },
-            "categoryId": str(fake.uuid4()),
+            "categoryId": "06a32bc7-8ddd-434d-a36d-764105a31123",  # str(fake.uuid4()),
             "address": {
-                "cityId": str(fake.uuid4()),
+                "cityId": "0a708102-4476-4613-ada7-aacda3f61072",  # str(fake.uuid4()),
                 "latitude": round(random.uniform(-90, 90), 6),
                 "longitude": round(random.uniform(-180, 180), 6),
-                "mapsUrn": fake.word()
+                "mapsUrn": fake.word(),
             },
             "images": [],
             "socialNetworks": {
@@ -28,13 +29,13 @@ def generate_place_data(place_id):
                 "instagram": None,
                 "site": None,
                 "x": None,
-                "google": None
+                "google": None,
             },
             "phones": [
                 {
                     "number": fake.phone_number(),
                     "isCallable": random.choice([True, False]),
-                    "isWhatsapp": random.choice([True, False])
+                    "isWhatsapp": random.choice([True, False]),
                 }
             ],
             "email": fake.email(),
@@ -44,14 +45,21 @@ def generate_place_data(place_id):
                     "timeStart": "12:30:00",
                     "timeEnd": "22:00:00",
                     "startOfBreak": None,
-                    "endOfBreak": None
-                } for day in range(7)
+                    "endOfBreak": None,
+                }
+                for day in range(7)
             ],
-            "idTags": [str(fake.uuid4()) for _ in range(2)]
+            "idTags": [
+                "0819bc43-7b97-4bfc-93d6-c145d1253fd5"
+            ],  # [str(fake.uuid4()) for _ in range(2)],
         }
     }
 
-for i in range(1000):
+
+for i in range(1):
     data = generate_place_data(i + 1)
+    print(data)
     response = requests.post(api_url, json=data)
-    print(f"Sent data for place ID {i + 1}: {response.status_code}, Response: {response.json()}")
+    print(
+        f"Sent data for place ID {i + 1}: {response.status_code}, Response: {response.text}"
+    )

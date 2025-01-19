@@ -1,7 +1,8 @@
 from faker import Faker
 import requests
 import json
-from random import choice
+from random import choice, uniform
+import time
 
 fake = Faker()
 
@@ -18,7 +19,7 @@ def create_fake_user():
         lower_case=True,
     ) + choice(char)
     data = {
-        "email": fake.email(domain="yandex.com"),
+        "email": fake.free_email(),
         "password": password,
     }
     print(data)
@@ -32,7 +33,8 @@ def create_fake_user():
 def main(num_requests):
     for _ in range(num_requests):
         create_fake_user()
+        time.sleep(uniform(0.1, 0.7))
 
 
 if __name__ == "__main__":
-    main(1)
+    main(100)

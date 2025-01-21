@@ -1,0 +1,208 @@
+{
+  "message": "OK",
+  "status": 200,
+  "data": null,
+  "list": [
+    {
+      "id": "c1c85c18-a79c-40d6-a0a1-cadbde6ca5c2",
+      "name": "Playa del Coco",
+      "web": "playa_del_coco_other",
+      "latitude": 10.5559,
+      "longitude": -85.6904,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "11c85c18-a79c-40d6-a0a1-cadbde6ca5c2",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "c1c85c18-a79c-40d6-a0a1-cadbde6ca5c2",
+        "tagId": null,
+        "presetIndexOfPopularity": 15
+      },
+      "installedIndexOfPopularity": 15
+    },
+    {
+      "id": "79069099-6d8d-4c31-b6c2-ea36b44751bb",
+      "name": "Guardia",
+      "web": "guardia",
+      "latitude": 10.5766,
+      "longitude": -85.5236,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "2502ff3d-c791-459b-8243-a92bc1e696f0",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "79069099-6d8d-4c31-b6c2-ea36b44751bb",
+        "tagId": null,
+        "presetIndexOfPopularity": 10
+      },
+      "installedIndexOfPopularity": 10
+    },
+    {
+      "id": "01a12b06-baff-4353-9dda-9800acb1db03",
+      "name": "Sheilaville",
+      "web": "sheilaville",
+      "latitude": 10,
+      "longitude": 3,
+      "provinceId": "7971e85e-265b-4a89-ac9e-b413bab62f9e",
+      "streets": [
+        {
+          "id": "76631214-528c-4293-a6e7-8dcaa2e81e94",
+          "name": "Alessandra Cliffs",
+          "cityId": "01a12b06-baff-4353-9dda-9800acb1db03"
+        },
+        {
+          "id": "d4bcc4e5-6add-42ab-a539-b770ad7c9d83",
+          "name": "Pfannerstill Corners",
+          "cityId": "01a12b06-baff-4353-9dda-9800acb1db03"
+        }
+      ],
+      "indexOfPopularity": {
+        "id": "4c8aaeb5-3242-4fb5-8db3-9207be667143",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "01a12b06-baff-4353-9dda-9800acb1db03",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    },
+    {
+      "id": "109c241f-a289-40b5-b4fc-a4038b52149a",
+      "name": "Liberia",
+      "web": "liberia",
+      "latitude": 10.6346,
+      "longitude": -85.4407,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "95d8c13d-68ff-48fe-a397-5eb4df4cf8eb",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "109c241f-a289-40b5-b4fc-a4038b52149a",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    },
+    {
+      "id": "a3464f13-46a0-4fd1-8c9c-b519a85c162a",
+      "name": "Playa del Coco",
+      "web": "playa_del_coco",
+      "latitude": 10.5559,
+      "longitude": -85.6904,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "48a2284d-9301-4ca1-8dfa-4227a42fe3b4",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "a3464f13-46a0-4fd1-8c9c-b519a85c162a",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    },
+    {
+      "id": "bfc47d56-7bd3-4fc1-980b-ae4a23c01679",
+      "name": "Comunidad",
+      "web": "comunidad",
+      "latitude": 10.6372,
+      "longitude": -85.4322,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "84b748eb-2553-4db9-83df-0f7e65ff7d99",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "bfc47d56-7bd3-4fc1-980b-ae4a23c01679",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    },
+    {
+      "id": "ea5db683-8f28-4299-bc5f-8786642319d0",
+      "name": "Ocotal",
+      "web": "ocotal",
+      "latitude": 11.1333,
+      "longitude": -85.9667,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "e264d3be-a272-468c-bba1-e55ab973e411",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "ea5db683-8f28-4299-bc5f-8786642319d0",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    },
+    {
+      "id": "ff639909-08a9-48a8-b710-1175b71fc696",
+      "name": "Panama",
+      "web": "panama",
+      "latitude": 9.8167,
+      "longitude": -82.6167,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "1a9a1e3c-856b-485e-903c-0ecd5505d142",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "ff639909-08a9-48a8-b710-1175b71fc696",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    },
+    {
+      "id": "ff718973-c0c2-4eed-9c76-a889f9c53210",
+      "name": "Bagaces",
+      "web": "bagaces",
+      "latitude": 10.5289,
+      "longitude": -85.2547,
+      "provinceId": "fa713872-aa21-4dc3-af70-71f9244cf8b8",
+      "streets": [],
+      "indexOfPopularity": {
+        "id": "71513a4e-3b28-4fec-b1ff-aa8b46144eb8",
+        "viewsCount": 0,
+        "addedToFavoritiesCount": 0,
+        "searchCount": 0,
+        "filterCount": 0,
+        "placeId": null,
+        "cityId": "ff718973-c0c2-4eed-9c76-a889f9c53210",
+        "tagId": null,
+        "presetIndexOfPopularity": 0
+      },
+      "installedIndexOfPopularity": 0
+    }
+  ],
+  "token": null
+}

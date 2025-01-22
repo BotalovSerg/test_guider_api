@@ -1,0 +1,91 @@
+{
+    "message": "OK",
+    "status": 200,
+    "data": null,
+    "list": [
+        {
+            "id": "06a32bc7-8ddd-434d-a36d-764105a31123",
+            "name_en": "Places to Eat",
+            "name_sp": "Lugares para comer",
+            "web": "to_eat",
+            "parentCategoryId": null,
+            "children": null,
+            "images": [
+                {
+                    "id": "ea7bd41c-a8e9-4181-93d0-9b2414e8e1a0",
+                    "filePath": "https://drive.google.com/file/d/1Q2TmDst2EiV13t2koxKwxUmbqBJxElcn/view",
+                    "fileId": "1Q2TmDst2EiV13t2koxKwxUmbqBJxElcn",
+                    "serialNumber": 0,
+                    "imageFile": null
+                }
+            ],
+            "description_en": "Where to Eat",
+            "description_sp": "Donde comer"
+        },
+        {
+            "id": "28b9cf44-58fc-4d2d-8753-1b401eb1fe2f",
+            "name_en": "test12",
+            "name_sp": "test12",
+            "web": "test12",
+            "parentCategoryId": null,
+            "children": null,
+            "images": [
+                {
+                    "id": "5c35c687-8578-447d-b512-5f1d1464b8db",
+                    "filePath": "https://drive.google.com/file/d/1cqS_U8D3tmUWYGo_WU4hSLB1beKV3lsr/view",
+                    "fileId": "1cqS_U8D3tmUWYGo_WU4hSLB1beKV3lsr",
+                    "serialNumber": 1,
+                    "imageFile": null
+                },
+                {
+                    "id": "7614296f-4eeb-4585-ab98-f9b247a7ad51",
+                    "filePath": "https://drive.google.com/file/d/1j3lB16OE0E-pehM7GGXiZEqrCumg9R1O/view",
+                    "fileId": "1j3lB16OE0E-pehM7GGXiZEqrCumg9R1O",
+                    "serialNumber": 1,
+                    "imageFile": null
+                }
+            ],
+            "description_en": "",
+            "description_sp": ""
+        },
+        {
+            "id": "4766d235-ed80-4216-a417-7b1bf74e6712",
+            "name_en": "Services",
+            "name_sp": "Servicios",
+            "web": "services",
+            "parentCategoryId": null,
+            "children": null,
+            "images": [
+                {
+                    "id": "b7a0dfd3-f691-4c8c-bce3-25e0a4634871",
+                    "filePath": "https://drive.google.com/file/d/1eRXlrByY6bFwCVpoNNTEbquQrIO-z4g3/view",
+                    "fileId": "1eRXlrByY6bFwCVpoNNTEbquQrIO-z4g3",
+                    "serialNumber": 0,
+                    "imageFile": null
+                }
+            ],
+            "description_en": "Where to Buy/Fix",
+            "description_sp": "Donde comprar/reparar"
+        },
+        {
+            "id": "98c3395b-7ee3-495d-8aeb-04adef985d5a",
+            "name_en": "Adventures",
+            "name_sp": "Aventuras",
+            "web": "adventures",
+            "parentCategoryId": null,
+            "children": null,
+            "images": [
+                {
+                    "id": "9e6968d4-562f-40d2-a492-a9ee45191b56",
+                    "filePath": "https://drive.google.com/file/d/1cRT2TQkTvIZAwTTs86hjJHviSz7kPKJB/view",
+                    "fileId": "1cRT2TQkTvIZAwTTs86hjJHviSz7kPKJB",
+                    "serialNumber": 0,
+                    "imageFile": null
+                }
+            ],
+            "description_en": "Where to Go",
+            "description_sp": "A donde ir"
+        }
+    ],
+    "token": null
+}

@@ -6,6 +6,7 @@ from faker import Faker
 
 fake = Faker()
 api_url = "https://backend.guider.pro/api/v2/Place/create"
+
 pool_citis_ids = [
     "c1c85c18-a79c-40d6-a0a1-cadbde6ca5c2",
     "79069099-6d8d-4c31-b6c2-ea36b44751bb",
@@ -18,6 +19,12 @@ pool_citis_ids = [
     "ff718973-c0c2-4eed-9c76-a889f9c53210",
 ]
 
+pool_cat_ids = [
+    "06a32bc7-8ddd-434d-a36d-764105a31123",
+    "4766d235-ed80-4216-a417-7b1bf74e6712",
+    "98c3395b-7ee3-495d-8aeb-04adef985d5a",
+]
+
 
 def generat_place_data():
     data = {
@@ -25,14 +32,18 @@ def generat_place_data():
         "place.Web": fake.word() + "_" + fake.word(),
         "place.Description.Description_en": fake.paragraph(nb_sentences=3),
         "place.Description.Description_sp": fake.paragraph(nb_sentences=3),
-        "place.CategoryId": "06a32bc7-8ddd-434d-a36d-764105a31123",
+        "place.CategoryId": random.choice(pool_cat_ids),
         "place.Address.CityId": random.choice(pool_citis_ids),
         "place.Address.Latitude": round(random.uniform(9.3, 11.7), 6),
         "place.Address.Longitude": round(random.uniform(-83.2, -85.3), 6),
         "place.Email": fake.email(),
         "place.Phones": fake.phone_number(),
         "place.Images[0].serialNumber": 1,
+        "place.Address.MapsUrn": fake.url(),
+        "place.SocialNetworks.Instagram": "@" + fake.domain_word(),
     }
+    # print(data["place.Address.CityId"])
+    # print(data["place.CategoryId"])
     return data
 
 
@@ -41,7 +52,7 @@ files = [
         "place.Images[0].imageFile",
         (
             "image1.jpg",
-            open("/home/botasb/mycode/test_api_guider/image1.jpg", "rb"),
+            open("image1.jpg", "rb"),
             "image/jpeg",
         ),
     ),
@@ -49,13 +60,13 @@ files = [
         "place.Images[0].imageFile",
         (
             "image.jpg",
-            open("/home/botasb/mycode/test_api_guider/image.jpg", "rb"),
+            open("image.jpg", "rb"),
             "image/jpeg",
         ),
     ),
 ]
 
-for _ in range(5):
+for _ in range(400):
     data = generat_place_data()
     response = requests.post(api_url, data=data, files=files)
     if response.status_code == 201:

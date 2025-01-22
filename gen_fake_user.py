@@ -23,11 +23,11 @@ def create_fake_user():
         "password": password,
     }
     print(data)
-    # try:
-    response = requests.post(API_URL_USER, json=data)
-    print(response.status_code, response)
-    # except Exception as e:
-    #     print(str(e))
+    try:
+        response = requests.post(API_URL_USER, json=data)
+        print(response.status_code, response)
+    except Exception as e:
+        print(str(e))
 
 
 def main(num_requests):

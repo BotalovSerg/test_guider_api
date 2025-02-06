@@ -6,7 +6,7 @@ import time
 
 fake = Faker()
 
-API_URL_USER = "https://backend.guider.pro/api/v2/Account/register"
+API_URL_USER = "http://194.195.86.113:8888/api/v2/Account/register"
 
 
 def create_fake_user():
@@ -22,19 +22,21 @@ def create_fake_user():
         "email": fake.free_email(),
         "password": password,
     }
-    print(data)
     try:
         response = requests.post(API_URL_USER, json=data)
-        print(response.status_code, response)
+        if response.status_code == 201:
+            return True
+        # print(response.status_code, response.text)
     except Exception as e:
         print(str(e))
 
 
 def main(num_requests):
     for _ in range(num_requests):
-        create_fake_user()
+        if create_fake_user():
+            print(f"User #{_} create.")
         time.sleep(uniform(0.1, 0.7))
 
 
 if __name__ == "__main__":
-    main(100)
+    main(300)

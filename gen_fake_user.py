@@ -28,7 +28,7 @@ def create_fake_user():
             return True
         # print(response.status_code, response.text)
     except Exception as e:
-        print(str(e))
+        print(f"{str(e)}")
 
 
 def main(num_requests):
@@ -39,4 +39,4 @@ def main(num_requests):
 
 
 if __name__ == "__main__":
-    main(300)
+    main(2)
